@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: FreeIPA Server - Hybrid Cloud Console
+  description: Hybrid Cloud Console extension for FreeIPA server
+  maintainer: ssg_idm
+  packages:
+    - ipa-hcc-server
+  labels:
+    - eln
+    - c10s

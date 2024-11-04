@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: FreeIPA Client - Hybrid Cloud Console
+  description: Auto-join FreeIPA client to FreeIPA domain through Hybrid Cloud Console
+  maintainer: ssg_idm
+  packages:
+    - ipa-hcc-client
+  labels:
+    - eln
+    - c10s
